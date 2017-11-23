@@ -51,6 +51,10 @@ app.get('/store/:id', function(req, res) {
             stores : stores.map(function(stores) {
                 return {
                     name: stores.name,
+                    _id: stores._id,
+                    items: stores.items,
+                    address: stores.address,
+                    zip: stores.zip
                 };
             })
         };
@@ -66,6 +70,8 @@ app.get('/store', function(req, res){
                 return {
                     name: stores.name,
                     _id: stores._id,
+                    address: stores.address,
+                    zip: stores.zip
                 };
             })
         };
