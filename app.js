@@ -45,7 +45,7 @@ function auth (key, fn) {
  * **************************/
  
 app.get('/store/:id', function(req, res) { 
-	Store.find({_id:req.query.id}, function(err, stores){
+	Store.find({_id:req.params.id}, function(err, stores){
         if (err) return res.json('500');
         let context = {
             stores : stores.map(function(stores) {
