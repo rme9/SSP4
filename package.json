@@ -9,7 +9,14 @@
   "author": "Your Name Here",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0",
-    "express-handlebars": "^3.0.0"
+    "apikey": "^0.1.2",
+    "async": "^2.6.0",
+    "asyncawait": "^1.0.6",
+    "await": "^0.2.6",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.13.4",
+    "zipcodes": "^6.0.0"
   }
 }
