@@ -160,20 +160,6 @@ app.get('/search/items', function(req, res){
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 404 catch-all handler (middleware)
 app.use(function(req, res, next){
 	res.status(404);
